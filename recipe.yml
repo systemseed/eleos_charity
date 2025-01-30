@@ -5,3 +5,4 @@ recipes:
   - recipes/contrib/eleos_charity/eleos_charity_commerce_base
   - recipes/contrib/eleos_charity/eleos_charity_shop_category
   - recipes/contrib/eleos_charity/eleos_charity_basic_product
+  - recipes/contrib/eleos_charity/eleos_charity_checkout_flow
