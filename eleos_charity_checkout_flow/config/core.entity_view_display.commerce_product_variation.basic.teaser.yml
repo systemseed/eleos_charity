@@ -1,0 +1,34 @@
+uuid: 049111a6-fe72-4dea-a83d-feac5bccef75
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.basic
+    - core.entity_view_mode.commerce_product_variation.teaser
+    - field.field.commerce_product_variation.basic.field_bpv_weight
+    - field.field.commerce_product_variation.basic.field_stock
+    - field.field.commerce_product_variation.basic.weight
+  module:
+    - commerce_variation_cart_form
+third_party_settings:
+  commerce_variation_cart_form:
+    combine: false
+id: commerce_product_variation.basic.teaser
+targetEntityType: commerce_product_variation
+bundle: basic
+mode: teaser
+content:
+  commerce_variation_cart_form:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_bpv_weight: true
+  field_stock: true
+  list_price: true
+  price: true
+  product_id: true
+  sku: true
+  title: true
+  weight: true
