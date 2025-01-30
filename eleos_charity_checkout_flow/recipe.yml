@@ -12,6 +12,7 @@ install:
   - commerce_product
   - commerce_shipping
   - commerce_stripe
+  - commerce_checkout
 config:
   import:
     commerce: '*'
@@ -24,3 +25,4 @@ config:
     commerce_product: '*'
     commerce_shipping: '*'
     commerce_stripe: '*'
+    commerce_checkout: '*'
